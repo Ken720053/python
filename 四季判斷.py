@@ -1,0 +1,11 @@
+month=int(input("請輸入月份:"))
+if(0<month<=3):
+    print(month,"月是春天")
+elif(3<month<=6):
+    print(month,"月是夏天")
+elif(6<month<=9):
+    print(month,"月是秋天")
+elif(9<month<=12):
+    print(month,"月是冬天")
+else:
+    print(month,"月份不在範圍內")
